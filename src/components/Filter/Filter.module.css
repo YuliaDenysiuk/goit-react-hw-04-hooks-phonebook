@@ -1,0 +1,8 @@
+.filter {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.filter__input {
+  background-color: rgb(105, 245, 123);
+}
