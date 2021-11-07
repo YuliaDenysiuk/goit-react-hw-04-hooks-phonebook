@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import s from './ContactList.module.css';
 
-function ContactList({ contacts, onDeleteContact }) {
+function ContactList({ contacts, onDeleteContact }) { 
   return (
     <ul className={s.contacts}>
       {contacts.map(({ id, name, number }) => (
